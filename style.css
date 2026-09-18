@@ -246,7 +246,7 @@ nav {
 
 .project-content {
     padding: 30px; 
-    background: #f4f4f1; 
+    background: transparent;
     display: flex;
     flex-direction: column;
     flex-grow: 1; 
@@ -266,22 +266,23 @@ nav {
 .project-description {
     color: #666;
     margin-bottom: 25px;
+    flex-grow: 1; 
 }
 
 .tags {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    margin-top: auto; 
 }
 
 .tags span {
     padding: 5px 11px;
-
     border: 1px solid #ddd;
     border-radius: 20px;
-
     font-size: 11px;
+    background: #ffffff;
 }
 
 .project-link {
